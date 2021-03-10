@@ -1,0 +1,283 @@
+{
+  "ID": "138c4193-7eae-4804-ac56-f3ddffbcf8b8",
+  "Name": "Doggie Bag Thing",
+  "Children": [
+    {
+      "ID": "eaa34d08-6424-4374-9637-1bd49be7e520",
+      "ComponentID": "",
+      "Finalized": false,
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,-80.075996870994572,19.299999141693114,0.0,1.0]",
+      "Name": "Case",
+      "ProOnly": false,
+      "SurfacedEditors": [],
+      "TypeName": "ComponentObject3D",
+      "Children": [
+        {
+          "ID": "6bb4a3c8-4f9b-451e-acf5-15d5d304b6d9",
+          "Advanced": false,
+          "Color": "#B0FE86",
+          "Diameter": 45.0,
+          "DiameterTop": 20.0,
+          "EndingAngle": 360.0,
+          "Height": 2.0,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,55.399999141693115,-19.299999141693107,1.0,1.0]",
+          "MeshPath": "F667DE40F0013A44FD0A9683CBF00704CE0D327B.stl",
+          "Name": "Bottom",
+          "Sides": 40,
+          "StartingAngle": 0.0,
+          "ThumbnailName": "Cylinder",
+          "TypeName": "CylinderObject3D"
+        },
+        {
+          "ID": "16c9a2b5-2053-4230-b4a9-a191b556c2d1",
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,17.69999885559082,-8.0999988555908118,0.0,1.0]",
+          "Name": "Combine (1)",
+          "TypeName": "CombineObject3D_2",
+          "Children": [
+            {
+              "ID": "4bc55273-e494-4848-a2b2-513a998f343c",
+              "Name": "Source",
+              "TypeName": "OperationSourceObject3D",
+              "Visible": false,
+              "Children": [
+                {
+                  "ID": "b23db789-3daf-45ad-9ca4-27ee3648217b",
+                  "Advanced": false,
+                  "Color": "#86CAFE",
+                  "EndingAngle": 360.0,
+                  "InnerDiameter": 40.0,
+                  "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,37.700000286102295,-11.200000286102295,59.25,1.0]",
+                  "MeshPath": "810E32BDCDFDFE5EBE9EDE8F597D33CC8F7BF950.stl",
+                  "Name": "Torus",
+                  "OuterDiameter": 43.0,
+                  "RingPhaseAngle": 0,
+                  "RingSides": 15,
+                  "Sides": 40,
+                  "StartingAngle": 0.0,
+                  "ThumbnailName": "Torus",
+                  "TypeName": "TorusObject3D"
+                },
+                {
+                  "ID": "153b1491-14a3-401e-a2fa-2d866d7b23df",
+                  "Color": "#8A86FE",
+                  "MeshPath": "BE026805EDB68795BDDC01FD75A938379FEC7E65.stl",
+                  "Name": "Subtract - Flattened",
+                  "OwnerID": "27ae4b5f-dd59-4678-8fc9-8e6de4233bcb"
+                }
+              ]
+            },
+            {
+              "ID": "71283845-596f-4a34-96bc-a1937e778665",
+              "Color": "#8A86FE",
+              "MeshPath": "B160E8BEA4A7FDA81ECB56C468C99B315BF3B0BD.stl",
+              "Name": "Subtract - Flattened"
+            }
+          ]
+        },
+        {
+          "ID": "0d3942de-c3e6-4bdb-9e0c-db8876e6091c",
+          "Advanced": false,
+          "Color": "#B0FE86",
+          "Diameter": 6.2,
+          "DiameterTop": 20.0,
+          "EndingAngle": 360.0,
+          "Height": 10.0,
+          "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,55.399999141693115,-19.299999141693107,5.0,1.0]",
+          "MeshPath": "5734D23649689349000CA787994A582E054B81F7.stl",
+          "Name": "Pin (1)",
+          "Sides": 40,
+          "StartingAngle": 0.0,
+          "ThumbnailName": "Cylinder",
+          "TypeName": "CylinderObject3D"
+        }
+      ]
+    },
+    {
+      "ID": "5f8d0ebe-2ec6-4335-a671-ce4bd6ce9245",
+      "MaitainProportions": false,
+      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,25.0,-0.32399896621702595,0.0,1.0]",
+      "Name": "Scale",
+      "Operation": 0,
+      "ScaleAbout": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ScaleRatio": {
+        "X": 0.99,
+        "Y": 0.99,
+        "Z": 1.0
+      },
+      "TypeName": "ScaleObject3D",
+      "UsePercentage": true,
+      "Children": [
+        {
+          "ID": "3575e754-6a8d-4670-bd56-8e3f0e12751c",
+          "Matrix": "[0.99,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]",
+          "Name": "",
+          "Children": [
+            {
+              "ID": "cea349c5-8d71-4939-89f4-33bf6cdd56b2",
+              "Advanced": false,
+              "Color": "#8A86FE",
+              "EndingAngle": 360.0,
+              "Height": 5.0,
+              "InnerDiameter": 10.0,
+              "Matrix": "[1.6666666666666672,0.0,0.0,0.0,0.0,1.2239191983394256E-07,-0.61333329758713206,0.0,0.0,0.70000015736090138,1.0723860416372632E-07,0.0,0.0,-1.0000026226832972,12.900000000000002,1.0]",
+              "MeshPath": "E3CA585C4C5B266F59E32A2DBAB8D7ED968B507B.stl",
+              "Name": "Ring",
+              "OuterDiameter": 15.0,
+              "Sides": 40,
+              "StartingAngle": 0.0,
+              "ThumbnailName": "Ring",
+              "TypeName": "RingObject3D"
+            },
+            {
+              "ID": "0a21f216-2780-44e0-ae71-eb18131cdc12",
+              "Advanced": false,
+              "Color": "#B0FE86",
+              "Diameter": 6.2,
+              "DiameterTop": 20.0,
+              "EndingAngle": 360.0,
+              "Height": 10.0,
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.89999999999999991,0.0,0.0,0.0,4.5,1.0]",
+              "MeshPath": "5734D23649689349000CA787994A582E054B81F7.stl",
+              "Name": "Pin",
+              "Sides": 40,
+              "StartingAngle": 0.0,
+              "ThumbnailName": "Cylinder",
+              "TypeName": "CylinderObject3D"
+            },
+            {
+              "ID": "ad67244f-fbfc-423c-b5f1-4062a5ef0540",
+              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,29.599997997283936,225.29999542236328,-6.5999999046325684,1.0]",
+              "Name": "Subtract",
+              "SelectedChildren": [
+                "1858f84d-860e-40ed-be02-aa68520dba23"
+              ],
+              "TypeName": "SubtractObject3D_2",
+              "Children": [
+                {
+                  "ID": "1b3691b7-955f-48d9-91d9-d432673829b5",
+                  "Name": "Source",
+                  "TypeName": "OperationSourceObject3D",
+                  "Visible": false,
+                  "Children": [
+                    {
+                      "ID": "bebd1c25-aad2-47e8-8a48-c4f9ed6da567",
+                      "Expanded": true,
+                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0000000000000027,0.0,-67.2999984741211,-214.09999885559083,-109.40000000000016,1.0]",
+                      "Name": "Subtract (1)",
+                      "SelectedChildren": [
+                        "f0d7f28c-d05a-423f-b829-b90e1d8e522f"
+                      ],
+                      "TypeName": "SubtractObject3D_2",
+                      "Children": [
+                        {
+                          "ID": "0c8fee48-0a6c-4088-a1ec-4301b3e405b5",
+                          "Name": "Source",
+                          "TypeName": "OperationSourceObject3D",
+                          "Visible": false,
+                          "Children": [
+                            {
+                              "ID": "4a44e747-87b8-4ede-81d9-78379974cdb7",
+                              "Advanced": false,
+                              "Color": "#B0FE86",
+                              "Diameter": 44.8,
+                              "DiameterTop": 20.0,
+                              "EndingAngle": 360.0,
+                              "Height": 5.0,
+                              "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,37.700000286102295,-11.200000286102295,60.5,1.0]",
+                              "MeshPath": "7DAADD1BE130E5F824670289A75FB52CF7888F79.stl",
+                              "Name": "Top",
+                              "Sides": 40,
+                              "StartingAngle": 0.0,
+                              "ThumbnailName": "Cylinder",
+                              "TypeName": "CylinderObject3D"
+                            },
+                            {
+                              "ID": "f0d7f28c-d05a-423f-b829-b90e1d8e522f",
+                              "Expanded": true,
+                              "Name": "Combine",
+                              "TypeName": "CombineObject3D_2",
+                              "Children": [
+                                {
+                                  "ID": "3b854dfc-5ac4-4768-90f3-088f9d7d0e92",
+                                  "Name": "Source",
+                                  "TypeName": "OperationSourceObject3D",
+                                  "Visible": false,
+                                  "Children": [
+                                    {
+                                      "ID": "0e337f05-518c-42bb-9746-c45e7f555e67",
+                                      "Advanced": false,
+                                      "Color": "#86CAFE",
+                                      "EndingAngle": 360.0,
+                                      "InnerDiameter": 40.0,
+                                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,37.700000286102295,-11.200000286102295,59.25,1.0]",
+                                      "MeshPath": "810E32BDCDFDFE5EBE9EDE8F597D33CC8F7BF950.stl",
+                                      "Name": "Torus",
+                                      "OuterDiameter": 43.0,
+                                      "RingPhaseAngle": 0,
+                                      "RingSides": 15,
+                                      "Sides": 40,
+                                      "StartingAngle": 0.0,
+                                      "ThumbnailName": "Torus",
+                                      "TypeName": "TorusObject3D"
+                                    },
+                                    {
+                                      "ID": "c1974861-b617-4b1f-89e4-02b84c648cf3",
+                                      "Color": "#8A86FE",
+                                      "MeshPath": "BE026805EDB68795BDDC01FD75A938379FEC7E65.stl",
+                                      "Name": "Subtract - Flattened",
+                                      "OwnerID": "27ae4b5f-dd59-4678-8fc9-8e6de4233bcb"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "ID": "6bb88573-6d2c-43be-b5f6-56c3ad141d30",
+                                  "Color": "#8A86FE",
+                                  "MeshPath": "B160E8BEA4A7FDA81ECB56C468C99B315BF3B0BD.stl",
+                                  "Name": "Subtract - Flattened"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "ID": "bffcd4ff-959b-42f8-a192-a268a20bc3f9",
+                          "Color": "#B0FE86",
+                          "MeshPath": "5DBA69E48E5E9E0313C7B7F4F95AFF6F2479B61E.stl",
+                          "Name": "Top",
+                          "OwnerID": "6cfb9be6-703f-4868-a412-4263767b7d39"
+                        }
+                      ]
+                    },
+                    {
+                      "ID": "1858f84d-860e-40ed-be02-aa68520dba23",
+                      "Color": "#FE86E3",
+                      "Diameter": 40.0,
+                      "LatitudeSides": 10,
+                      "LongitudeSides": 40,
+                      "Matrix": "[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.44999999999999979,0.0,-29.59999866485596,-225.29999866485596,6.3000000000000007,1.0]",
+                      "MeshPath": "D6841C3F8C542F9ADF18772B0FF2593404089BC4.stl",
+                      "Name": "Half Sphere",
+                      "ThumbnailName": "Half Sphere",
+                      "TypeName": "HalfSphereObject3D"
+                    }
+                  ]
+                },
+                {
+                  "ID": "3c48e4ef-f6be-48e8-8aa1-94d52d5c7fbf",
+                  "Color": "#B0FE86",
+                  "MeshPath": "017AA04704B9DE8AAA324AEBFD932BFD071947A4.stl",
+                  "Name": "Top",
+                  "OwnerID": "9af84fbf-cd9d-4367-8363-dd3d442ba442"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
